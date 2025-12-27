@@ -1,3 +1,10 @@
+import streamlit as st
+import google.generativeai as genai
+from PIL import Image
+
+# --- CONFIGURAÇÃO INICIAL ---
+st.set_page_config(page_title="NutriIA Body Scan", layout="centered")
+
 # --- BARREIRA DE PAGAMENTO (SENHA) ---
 PASSWORD_CORRETO = "DIETA2025" # Mude para a senha que você quiser
 
